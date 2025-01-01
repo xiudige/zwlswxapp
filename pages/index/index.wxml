@@ -14,7 +14,11 @@
     </swiper-item>
   </swiper>
   <view class="m-menu">
-    <navigator class="item" url="{{item.url}}" wx:for="{{channel}}" wx:key="{{item.id}}">
+  <!-- <navigator class="item" url="/pages/goods/goods"> 
+    <image src="/static/images/go.png"></image>
+    <text>3333</text>
+  </navigator> -->
+    <navigator class="item" url="{{item.url}}" wx:for="{{channel}}" wx:key="{{index}}">
       <image src="{{item.icon_url}}" background-size="cover"></image>
       <text>{{item.name}}</text>
     </navigator>

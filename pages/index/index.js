@@ -32,9 +32,18 @@ Page({
           hotGoods: res.data.hotGoodsList,
           topics: res.data.topicList,
           brand: res.data.brandList,
+         // [{"id":"123"}]
           floorGoods: res.data.categoryList,
           banner: res.data.banner,
           channel: res.data.channel
+          // [
+          //   {
+          //     "id":"1", 
+          //     "url":"/pages/goods/goods",
+          //     "icon_url":"/static/images/del-address.png",
+          //     "name":"居家"
+          //   }
+          // ]
         });
       }
     });
